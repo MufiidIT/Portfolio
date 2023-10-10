@@ -1,0 +1,208 @@
+body{
+    background-color: #23263A;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+nav a:first-of-type span span{
+    color: #CF4150;
+}
+nav{
+    background-color: #212336;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+nav > a{
+    margin-top: 0.5em;
+    margin-left:2.4em;  
+}
+nav a{
+    text-decoration: none;
+    color: #fff;  
+    text-align: center;
+}
+nav, nav ul{
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li a:hover{
+    color: #CF4150;
+}
+ul{
+    display: flex;
+    flex: 2;
+    max-width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    background-color: #CF4150;
+    border: none;
+    font-size: 20px;
+    width: 12em;
+    height: 3em;
+    margin-left: 98px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.right-section{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    align-items: flex-start;
+    margin-top: -6em;
+    margin-left: -10.9em;
+}
+.right-section img{
+    margin-top: -18em;
+    margin-left: 6.5em;
+}
+h2{
+    color: #CF4150;
+    font-size: 35px;
+}
+h2:after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 19%;
+    border-bottom: 3px solid #CF4150;
+    margin-top: 15px; 
+    margin-left: 113px;
+}
+.contact-section{
+    text-align: center;
+    margin-top: 4em;
+}
+h3{
+    color: #CF4150;
+    font-size: 30px;
+}
+.contact-form{
+    margin-top: 2em;
+    margin-bottom: 15px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contact-form button{
+    color: #552639;
+    font-weight: bold;
+    margin-left: -20px;
+}
+.contact-form input{
+    background-color: #282A41;
+    border: none;
+    font-size: 25px;
+    width: 12em;
+}
+.contact-form input::placeholder{
+    color: #1B1D31;
+}
+i{
+    color: #1C1E32;
+    padding-left: 12px;
+}
+.contact-section.design{
+    display: none;
+}
+@media(min-width: 768px){
+    nav{
+        height: 100px;
+        font-size: 18px;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    nav>a{
+        font-size: 1.5em;
+    }
+    nav, nav ul{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .right-section{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-end;
+        position:relative;
+        top: 4em;
+        margin-right: -15%;
+        /* left: -9%; */
+        /* padding-left: -900em; */
+    }
+    .right-section img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 295px;
+        height: 295px;
+        align-items: flex-end;
+        position:absolute;
+        /* margin-top: -150em;
+        margin-left: 18em; */
+        top:0;
+        left: 0;
+    }
+    .contact-section h3{
+        display: flex;
+        margin-left: 4em;
+    }
+    .contact-form button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15em;
+    }
+    .contact-section input:nth-of-type(2){
+        margin-top: 0.2em;
+    }
+    .contact-section h3{
+       font-size: 48px;
+    }
+    .contact-form input{
+        font-size: 50px;
+        padding-left: 17px;
+        padding-bottom: 1.5%;
+        width: 10.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .contact-form{
+      display: flex;
+      justify-content: left;
+      padding-left: 10.8em;
+    }
+    .contact-form input::placeholder{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
