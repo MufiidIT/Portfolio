@@ -93,91 +93,19 @@ button{
 }
 .right-section{
     width: 50%;
-    /* float: right; */
+    float: right;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    flex:1;
-    margin-top: 4em;
-    margin-left: -10.9em;
-}
-/* .services-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: -8em;
-}
-.skill-container{
-    background-color: #2B2D41;
-    margin-top: 20px;
-    padding-left: 4px;
-    margin-left: 40px;
-    width: 315px;
-    text-align: center;
-    cursor: pointer;
-}
-.skill-container:hover{
-    background-color: #2b2d413c;
-}
-.services-section.left-side p, .services-section.left-side h2{
-    text-align: center;
-}
-h2{
-    color: #CF4150;
-    font-size: 35px;
-}
-h2:after {
-    content: '';
-    display: block;
     position: relative;
-    width: 19%;
-    border-bottom: 3px solid #CF4150;
-    margin-top: 15px; 
-    margin-left: 113px;
-} */
-/* .contact-section{
-    text-align: center;
-    margin-top: 4em;
+    align-items: flex-start;
+    margin-top: -6em;
+    margin-left: -35%;
 }
-h3{
-    color: #CF4150;
-    font-size: 30px;
+.right-section img{
+    margin-top: 17em;
+    margin-left:45%;
+    position: absolute;
 }
-.contact-form{
-    margin-top: 2em;
-    margin-bottom: 15px;
-}
-.contact-form form{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
-   
-} */
-/* .contact-form button{
-    color: #552639;
-    font-weight: bold;
-    margin-left: -20px;
-}
-.contact-form input{
-    background-color: #282A41;
-    border: none;
-    font-size: 35px;
-    width: 12em;
-}
-.contact-form input::placeholder{
-    color: #1B1D31;
-}
-i{
-    color: #1C1E32;
-    padding-left: 12px;
-}
-.contact-section.design{
-    display: none;
-} */
 @media(min-width: 768px){
     nav{
         height: 100px;
@@ -195,17 +123,29 @@ i{
     }
     .hero-section h1{
         margin-top: 2em;
-        margin-left: 3.4em;
+        margin-left: 30%;
         text-align: left;
         font-size: 70px;
     }
     .right-section{
-        margin-top: 8em;
-        margin-left: 7em;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-end;
+        position:relative;
+        top: -4em;
+        left: 32%;
     }
     .right-section img{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         width: 295px;
         height: 295px;
+        align-items: flex-end;
+        position:absolute;
+        top:0;
+        left: 0;
     }
     .left-section p{
         margin-left: 233px;
