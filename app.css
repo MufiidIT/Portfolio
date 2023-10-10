@@ -17,9 +17,11 @@ nav{
     background-color: #212336;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 200px;
+    position: relative;
+    z-index:1;
 }
 nav > a{
     margin-top: 0.5em;
